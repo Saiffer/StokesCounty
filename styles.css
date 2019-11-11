@@ -1,0 +1,120 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+/* LOGO IMAGES STYLES */
+.header-images {
+width: 100%;
+position: relative;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.responsive-logo {
+    position: absolute;
+    left: 27%;
+    top: 10%;
+    max-width: 50%;
+    height: auto;
+}
+
+/* LOGO IMAGES STYLES */
+/* MEGAMENU STYLES */
+.megamenu {
+    position: static;
+  }
+  
+.megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+  }
+
+ul {
+    list-style: none;
+}
+/* MEGAMENU STYLES */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+}
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgb(108, 152, 197); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #444;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(108, 152, 197);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  /* MAIN GRID CONTAINER AND GRID-CARDS */
+
+  .container-grid {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-column-gap: 1%;
+      grid-row-gap: 1%;
+  }
